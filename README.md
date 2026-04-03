@@ -1,0 +1,144 @@
+# 🚀 AI Personal Task Assistant
+
+## 🧠 Problem Statement
+People often struggle to manage tasks, prioritize work, and stay productive.  
+They don’t know what to do next and waste time deciding.
+
+---
+
+## 💡 Solution
+We built an **AI-powered personal assistant** that:
+
+- Organizes tasks
+- Calculates priority automatically
+- Suggests what to do next
+- Generates a structured study plan
+- Supports voice commands
+
+---
+
+## ⚙️ Features
+
+### 📋 Task Manager
+- Add tasks with deadline and priority
+- View all pending tasks
+- Mark tasks as completed
+
+---
+
+### 🧠 AI Priority System
+- Calculates priority using:
+  
+  Priority = Importance / Time Remaining
+
+- Automatically sorts tasks
+
+---
+
+### 🤖 Smart Suggestion
+- “What should I do now?”
+- AI suggests the highest priority task
+
+---
+
+### 🎤 Voice Assistant (AI Feature)
+- Add tasks using voice  
+- Example:
+  > “Add OS tomorrow 10 pm priority 4”
+
+- Extracts:
+  - Task name
+  - Time
+  - Priority
+
+---
+
+### 📅 Study Plan Generator
+- Generates weekly structured plan
+- Displays tasks in table format
+- Helps in planning studies efficiently
+
+---
+
+### 📊 Productivity Tracker
+- Tracks:
+  - Completed tasks
+  - Pending tasks
+- Shows user performance
+
+---
+
+### 👤 User Profile
+- Displays:
+  - Username
+  - Date of Birth
+  - Task stats
+
+---
+
+## 🔄 Working of the Project
+
+1. User logs into the system  
+2. Adds tasks manually or using voice  
+3. Tasks are stored in database  
+4. AI calculates priority automatically  
+5. Dashboard shows:
+   - Task list
+   - AI suggestion  
+6. User completes tasks  
+7. AI updates priorities dynamically  
+8. User can generate a study plan  
+9. Profile tracks productivity  
+
+---
+
+## 🏗️ Tech Stack
+
+### Frontend
+- HTML  
+- CSS  
+- JavaScript  
+
+### Backend
+- Python  
+- Flask  
+
+### Database
+- SQLite  
+
+### Tools Used
+- Git & GitHub  
+- Postman (API Testing)  
+
+---
+
+## 🎥 Demo Video
+
+👉 **Watch here:**  
+[https://youtu.be/7_0TJnKu3DU?si=9lSO_RbwmhWUAcgv]
+
+---
+
+## 🌟 Key Highlights
+
+- AI-based task prioritization  
+- Voice-enabled task creation  
+- Smart study plan generation  
+- Clean and interactive UI  
+- Real-time productivity tracking  
+
+---
+
+## 🚀 Future Improvements
+
+- Voice conversation AI
+- Smart reminders & notifications
+- Mobile app version
+
+---
+
+## 📌 Conclusion
+
+This project helps users **save time, stay organized, and improve productivity** using AI-driven decision-making.
+
+--
