@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark">
+
+<div class="container" id="mainUI">
+    <!-- TOP BAR -->
+    <div class="top">
+        <button onclick="toggleMenu()">☰</button>
+        <h2>AI Assistant</h2>
+        <button onclick="toggleProfile()">👤</button>
+        
+    </div>
+
+    <!-- MENU -->
+    <div id="menu" class="menu">
+        <p onclick="viewHistory()">📜 History</p>
+        <p onclick="logout()">🚪 Logout</p>
+    </div>
+
+    <!-- PROFILE -->
+    <div id="profile" class="profile">
+        <h3>Profile</h3>
+        <p id="p_name"></p>
+        <p id="p_dob"></p>
+        <p id="p_completed"></p>
+        <p id="p_pending"></p>
+    </div>
+
+    <!-- ADD TASK -->
+    <div class="card">
+        <h3>Add Task</h3>
+        <input id="title" placeholder="Task">
+        <input type="datetime-local" id="deadline">
+        <input id="importance" placeholder="Priority (1-5)">
+        <button onclick="addTask()">Add Task</button>
+    </div>
+
+    <!-- TASKS -->
+    <div class="card">
+        <h3>Tasks</h3>
+        <ul id="taskList"></ul>
+    </div>
+
+    <!-- OUTPUT -->
+    <div class="card">
+        <h3>AI Suggestion</h3>
+        <div id="output"></div>
+    </div>
+
+</div>
+                
+<div id="planView" style="display:none; padding:20px;">
+
+    <h2 style="text-align:center;">📅 Study Plan</h2>
+
+    <button onclick="goBack()" style="margin-bottom:10px;">⬅ Back</button>
+
+    <table id="planTable" border="1" 
+        style="width:100%; text-align:center; background:white; color:black;">
+    </table>
+
+</div>
+<div class="plan-container">
+    <table id="planTable"></table>
+</div>
+<!-- BOTTOM NAV -->
+<div class="bottom">
+    <button onclick="getNextTask()">🤖</button>
+    <button onclick="startAssistant()">🎤</button>
+    <button onclick="stopAssistant()">⛔</button>
+    <button onclick="generatePlan()">📅</button> 
+    <button onclick="logout()">🚪</button>
+</div>
+
+<!-- IMPORTANT: JS AT END -->
+<script src="script.js"></script>
+
+
+<body class="dark">
+</html>

@@ -1,0 +1,140 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(135deg, #a15813, #ffffffb2);
+}
+
+/* CENTER EVERYTHING */
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    color: rgb(94, 26, 176);
+}
+
+
+/* TOP BAR */
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#planView {
+    max-width: 600px;
+    margin: auto;
+}
+/* CARD */
+.card {
+    background: rgb(0, 0, 0);
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+/* INPUT */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+/* BUTTON */
+button {
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #ff2424;
+    color: rgb(163, 140, 140);
+    cursor: pointer;
+}
+
+/* TASK LIST */
+li {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* BOTTOM NAV */
+.bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+/* MENU */
+.menu {
+    position: fixed;
+    left: -200px;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background: black;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.menu.active {
+    left: 0;
+}
+
+/* PROFILE */
+.profile {
+    position: fixed;
+    right: -250px;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background: black;
+    color: white;
+    padding: 20px;
+    transition: 0.3s;
+}
+.plan-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#planTable {
+    width: 90%;
+    max-width: 700px;
+    border-collapse: collapse;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* HEADER */
+#planTable th {
+    background: #111827;
+    color: white;
+    padding: 10px;
+}
+
+/* ROWS */
+#planTable td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* BORDER */
+#planTable, #planTable th, #planTable td {
+    border: 1px solid #ddd;
+}
+.profile.active {
+    right: 0;
+}
