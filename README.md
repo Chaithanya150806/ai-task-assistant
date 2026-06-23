@@ -13,7 +13,7 @@ We built an **AI-powered personal assistant** that:
 - Calculates priority automatically
 - Suggests what to do next
 - Generates a structured study plan
-- Supports voice commands
+- Supports voice command
 
 ---
 
