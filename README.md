@@ -139,6 +139,6 @@ We built an **AI-powered personal assistant** that:
 
 ## 📌 Conclusion
 
-This project helps users **save time, stay organized, and improve productivity** using AI-driven decision-making.
+This project helps users *save time, stay organized, and improve productivity** using AI-driven decision-making.
 
 --
